@@ -1,13 +1,62 @@
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+
+:root {
+    --primary-color: #XXXXXX;
+    --second-color: #XXXXXX;
+    --accent1-color: #XXXXXX;
+    --accent2-color: #XXXXXX;
+
+    --heading-font: '_______', serif;
+    --paragraph-font: '_______', serif;
+    
+    --nav-background-color: #XXXXXX;
+    --nav-link-color: #XXXXXX;
+    --nav-hover-link-color: #XXXXXX;
+    --nav-hover-background: #XXXXXX;
 }
 
-h1 {
-    position: absolute;
-    
+
+
+.hero img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover;
+    height: 600px; 
+    color: white;
 }
-article{
-    position: absolute;
+
+.hero h1,
+.hero article {
+  position: absolute;
+  top: 50%; /* Centra verticalmente los elementos */
+  left: 50%; /* Centra horizontalmente los elementos */
+  transform: translate(-50%, -50%); /* Centra los elementos correctamente */
 }
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.img2{
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.hero article {
+    position: absolute;
+    top: 90%;
+    background-color: rgb(177, 185, 179, 0.5);
+    color: rgb(28, 1, 1) !important;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.history{
+    font-size: 50px;
+    color: rgb(55, 55, 2);
+    font-weight:bolder ;
+}
+
