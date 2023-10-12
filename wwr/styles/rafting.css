@@ -60,3 +60,91 @@
     font-weight:bolder ;
 }
 
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+section{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 2fr 4fr;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: flex;
+    align-items: end;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Crea 5 columnas de igual tamaño */
+    grid-gap: 10px; /* Espaciado entre las imágenes */
+    text-align: center; /* Centrar el texto debajo de las imágenes */
+}
+
+.section2 img {
+    width: 100%; /* Asegurar que las imágenes ocupen todo el ancho del contenedor */
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Cada imagen ocupará una quinta parte del contenedor */
+    grid-gap: 10px; /* Espaciado entre las imágenes */
+    text-align: center; /* Centrar el texto debajo de las imágenes */
+}
+
+.wa{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight:bolder ;
+    display: flex;
+    justify-content: center;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
