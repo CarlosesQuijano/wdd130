@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="This is page with the porpuse to have information about us">
+    <meta name="author" content="Carlos">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>CONCTAC US</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo4.avif" alt="Rafting Site Logo" width="300">
+        <h1></h1> 
+        <nav class="navigation">
+            <li><a href="index.html">Index</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Información de la empresa -->
+        <section>
+            <h2>Información de Contacto</h2>
+            <address>
+                <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+                <p>Teléfono: +1 234 567 890</p>
+                <p>Correo Electrónico: info@raftingadventure.com</p>
+            </address>
+            <!-- Mapa de Google incrustado -->
+            <div>
+                <!-- Aquí va el código para incrustar el mapa de Google -->
+                <!-- Puedes encontrar esto en la documentación de Google Maps -->
+            </div>
+        </section>
+
+        <section class="section2">
+            <h2>Nuestro Equipo</h2>
+           
+            <div>
+                <img src="images/814d1bfd481a063360ad4e623ee7c689.jpg" alt="Empleado 1">
+                <p>JOSE VALLADARES<br>Gerente de Tours</p>
+            </div>
+           
+            <div>
+                <img src="images/1681498771664.jpeg" alt="Empleado 2">
+                <p>CARMEN NUÑEZ<br>Guía Principal</p>
+            </div>
+
+            <div>
+                <img src="images/mrkii-foto-perfil-linkedin-11-1.jpg" alt="Empleado 3">
+                <p>RENE ROSALES<br>Guía de Seguridad</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contacta con Nosotros</h2>
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" required></textarea><br>
+
+                <input type="checkbox" id="suscribir" name="suscribir" value="Sí">
+                <label for="suscribir">Suscríbeme al boletín mensual</label><br>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+            <p class="copy"> ©2023 Copyright Rafting Extreme- Carlos Quijano</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                <img src="images/5296499_fb_facebook_facebook logo_icon (1).png" alt="">
+                </a>
+                <a href="https://twitter.com">
+                <img src="images/logo3.png" alt="">
+                </a>
+                <a href="https://instagram.com">
+                <img src="images/3225191_app_instagram_logo_media_popular_icon (1).png" alt="">
+                </a>
+            </nav>
+    </footer>
+</body>
+</html>
