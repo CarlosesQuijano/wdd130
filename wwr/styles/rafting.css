@@ -17,6 +17,10 @@
 }
 
 
+.rafting-text{
+    color: white;
+}
+
 
 .hero img{
     width: 100%;
@@ -26,7 +30,39 @@
     height: 600px; 
     color: white;
 }
+.image-button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+
+
+.botton1 {
+    position: relative;
+    background-color: black;
+}
+
+.button1 {
+    position: absolute;
+    bottom: 20px; /* Puedes ajustar esta propiedad según tu diseño */
+    left: 50%; /* Centra el botón horizontalmente */
+    transform: translateX(-50%); /* Centra el botón horizontalmente */
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
 .hero h1,
 .hero article {
   position: absolute;
@@ -350,3 +386,13 @@ footer {
 }
 
 
+.indexAdventure {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 5 columnas de igual tamaño */
+    grid-gap: 10px; /* Espaciado entre las imágenes */
+    text-align: center; /* Centrar el texto debajo de las imágenes */
+}
+
+.indexAdventure img {
+    width: 100%; /* Asegurar que las imágenes ocupen todo el ancho del contenedor */
+}
