@@ -41,14 +41,10 @@ h1 {
     color: #2c3e50;
 }
 
-img {
-    width: 200px;
+main img {
+    width: 150px;
     height: auto;
     border: 2px solid #ddd;
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.profile{
-    width: 150px;
 }
